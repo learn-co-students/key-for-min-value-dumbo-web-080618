@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     arr_values = name_hash.collect do |key,value|
                  value
                  end
-    #initializing the smallest key 
+    #initializing s_key
     s_key = nil 
     name_hash.each do |key, value|
             if arr_values[0] == value 
